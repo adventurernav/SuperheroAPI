@@ -1,0 +1,28 @@
+body{
+    background: linear-gradient(#a80f14, #084d8d) no-repeat;
+    background-size: cover;
+}
+ul{
+    list-style: none;
+    font-family: 'Exo 2', sans-serif;
+}
+li,h1{
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+}
+li{
+    font-size: 1.5rem;
+}
+img{
+    border-radius: 50px;
+}
+button{
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+section {
+    height: 100vh;
+}
+#returnContent{
+    height: 75vh;
+}
