@@ -1,6 +1,7 @@
 body{
     background: linear-gradient(#a80f14, #084d8d) no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 ul{
     list-style: none;
@@ -15,14 +16,9 @@ li{
 }
 img{
     border-radius: 50px;
+    max-height: 40%;
 }
 button{
     margin-top: 10vh;
     margin-bottom: 5vh;
-}
-section {
-    height: 100vh;
-}
-#returnContent{
-    height: 75vh;
 }
