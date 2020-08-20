@@ -2,17 +2,17 @@
 let key = '10222970817439620';
 let baseURL = `https://www.superheroapi.com/api.php/${key}/`
 // 10222970817439620/263
-
+//steps for later, add'l functionality
 //make async
 //add loading from bootstrap
 
 function getHero() {
     const randomNumber = Math.floor(Math.random() * 731 + 1);
     let test;
-    test=662;
+    // test=662;
     // test=663;
-    fetch(baseURL+test)
-    // fetch(baseURL + randomNumber)
+    // fetch(baseURL+test)
+    fetch(baseURL + randomNumber)
         .then(result => result.json())
         .then(data => {
             const output = document.getElementById("output");
